@@ -19,6 +19,7 @@ const deleteButton = document.getElementById('delete-btn');
         deleteButton.addEventListener('click', deleteAllTask);
         displayTasks();
     });
+
     function addTask() {
         const newTask = todoInput.value.trim();
         if (newTask !== '') {
@@ -28,11 +29,13 @@ const deleteButton = document.getElementById('delete-btn');
             displayTasks();
         }
     }
+
     function deleteAllTask() {
         todo = [];
         saveToLocalStorage();
         displayTasks();
     }
+
     function displayTasks() {
         todoList.innerHTML = '';
         todo.forEach((item, index) => {
@@ -50,14 +53,17 @@ const deleteButton = document.getElementById('delete-btn');
         });
         todoCount.textContent = todo.length;
     }
+
     function saveToLocalStorage() {
         localStorage.setItem('todo', JSON.stringify(todo));
     }
+
     function toggleTask(index) {
         todo[index].disabled = !todo[index].disabled;
         saveToLocalStorage();
         displayTasks();
     }
+    
     window.editTask = function (index) {
         const todoItem = document.getElementById(`todo-${index}`);
         const existingText = todo[index].text;
