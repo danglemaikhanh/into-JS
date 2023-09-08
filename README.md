@@ -3,7 +3,14 @@ small project for beginner web developers who are looking to expand their knowle
 
 ### :pencil2: Todo-List 
 <p>a minimalist to-do list application</p>
-:arrow_right: Add tasks by typing them and clicking "Add" <br>
-:arrow_right: Mark tasks as complete with the checkbox. <br>
-:arrow_right: Edit tasks by clicking on them. <br>
-:arrow_right: Delete tasks by clicking "Delete all."
+:heavy_check_mark: Add tasks by typing them and clicking "Add" <br>
+:heavy_check_mark: Mark tasks as complete with the checkbox. <br>
+:heavy_check_mark: Edit tasks by clicking on them. <br>
+:heavy_check_mark: Delete tasks by clicking "Delete all."
+
+### :card_index: Calculator
+<p>a simple but completely modern calculator</p>
+:heavy_check_mark: ES6 classes to organize code <br>
+:heavy_check_mark: Grid <br>
+:heavy_check_mark: Flexbox <br>
+:heavy_check_mark: sync JavaScript code with a UI
