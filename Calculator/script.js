@@ -108,17 +108,17 @@
         });
     });
 
-    equalsButton.addEventListener('click', button => {
+    equalsButton.addEventListener('click', () => {
         calculator.compute();
         calculator.update();
     });
 
-    clearButton.addEventListener('click', button => {
+    clearButton.addEventListener('click', () => {
         calculator.clear();
         calculator.update();
     });
 
-    deleteButton.addEventListener('click', button => {
+    deleteButton.addEventListener('click', () => {
         calculator.delete();
         calculator.update();
     });
