@@ -14,3 +14,9 @@ small project for beginner web developers who are looking to expand their knowle
 :heavy_check_mark: Grid <br>
 :heavy_check_mark: Flexbox <br>
 :heavy_check_mark: sync JavaScript code with a UI
+
+### :video_game: Tic-Tac-Toe
+<p>a small but fun game</p>
+:heavy_check_mark: JS Game Logic <br>
+:heavy_check_mark: CSS Not Selector <br>
+:heavy_check_mark: Shape Building
