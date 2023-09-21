@@ -20,3 +20,9 @@ small project for beginner web developers who are looking to expand their knowle
 :heavy_check_mark: JS Game Logic <br>
 :heavy_check_mark: CSS Not Selector <br>
 :heavy_check_mark: Shape Building
+
+### :fire: Weather-App
+<p>get current weather data from OpenWeatherMap</p>
+:heavy_check_mark: Fetch API <br>
+:heavy_check_mark: Transforming API Data <br>
+:heavy_check_mark: Search location
