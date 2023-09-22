@@ -1,0 +1,30 @@
+*, ::before, ::after { box-sizing: border-box; }
+body { 
+    margin: 0; padding: 0; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    background-color: #e7e2ff; color: #5c5b5b;
+}
+.progress-bar { width: 90%; max-width: 550px; height: 0.5em; background-color: #eaebec; border-radius: 1.5rem; position: absolute; top: 0; } .hide {display: none;}
+.bar { width: 0%; background-color: #7f82df; border-radius: 1.5rem; position: absolute; height: 0.5em; transition: all 0.5s;}
+.app {
+    background-color: #fff;
+    width: 100%; max-width: 600px;
+    margin: 50px auto 0; padding: 20px;
+    border-radius: 20px; position: relative;
+}
+.app h1 { padding-bottom: 20px;}
+.quiz { padding: 20px 0; } .quiz h2 { font-size: 18px; }
+.btn { 
+    background-color: #fff; color: #222; font-weight: 500; 
+    width: 100%; border: 1px solid #222; padding: 15px; margin: 10px 0; 
+    text-align: left; cursor: pointer; border-radius: 4px; transition: all 0.5s;
+}
+.btn:hover:not([disabled]) { background-color: #222; color: #fff;} .btn:disabled { cursor: no-drop; }
+.next-btn { 
+    background-color: #7f82df; color: #fff; border: none; font-weight: bold; letter-spacing: 2px; cursor: pointer;
+    padding: 10px 25px; border-radius: 10px; margin-top: 10px; text-transform: uppercase; width: 150px;
+    display: none; margin-left: auto; margin-right: auto;
+}
+.next-btn.show { display: block; }
+.correct { background-color: #7f82df; color: #fff;} .incorrect { background-color: #fa99e2; color: #fff;}
+.answer-btns { position: relative; }
+.emoji { font-size: 15px; position: absolute; right: 10px; }
