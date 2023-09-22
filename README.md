@@ -26,3 +26,8 @@ small project for beginner web developers who are looking to expand their knowle
 :heavy_check_mark: Fetch API <br>
 :heavy_check_mark: Transforming API Data <br>
 :heavy_check_mark: Search location
+
+### :memo: Quiz
+<p>a small quiz application</p>
+:heavy_check_mark: dynamically show/hide elements <br>
+:heavy_check_mark: add/remove child elements
